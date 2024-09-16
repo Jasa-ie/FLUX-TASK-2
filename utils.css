@@ -1,0 +1,187 @@
+/* Base Styles */
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.font-bold {
+    font-weight: bolder;
+}
+
+.my-1 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.my-2 {
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.px-2 {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-blue {
+    color: rgb(227, 74, 56);
+}
+
+.btn {
+    padding: 7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(227, 74, 56);
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Responsive Styles */
+
+/* For tablets (768px to 1024px) */
+@media only screen and (max-width: 1024px) {
+    .my-1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .my-2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .px-2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .btn {
+        padding: 6px 10px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .text-blue {
+        font-size: 1.1rem;
+    }
+}
+
+/* For mobile devices (max-width: 767px) */
+@media only screen and (max-width: 767px) {
+    .min-h-screen {
+        min-height: 90vh;
+    }
+
+    .my-1 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .my-2 {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .px-2 {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .btn {
+        padding: 5px 8px;
+        font-size: 0.9rem;
+    }
+
+    .text-center {
+        font-size: 1rem;
+    }
+
+    .text-blue {
+        font-size: 1rem;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+}
+
+/* For very small mobile devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    .min-h-screen {
+        min-height: 80vh;
+    }
+
+    .my-1 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .my-2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .px-2 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .btn {
+        padding: 4px 6px;
+        font-size: 0.8rem;
+    }
+
+    .text-center {
+        font-size: 0.9rem;
+    }
+
+    .text-blue {
+        font-size: 0.9rem;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .font-bold {
+        font-size: 1rem;
+    }
+}

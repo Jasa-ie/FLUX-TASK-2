@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.section1 {
+    max-height: 100vh;
+    color: #711e15;
+    padding: 20px;
+}
+
+.section1 h1 {
+    color: #37110d;
+    font-size: 2rem;
+}
+
+.logo {
+    font-size: 1.3rem;
+}
+
+.dumbellimg {
+    width: 289px;
+}
+
+.topright .gymimg {
+    width: 466px;
+}
+
+.section2 {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section2 h1 {
+    font-size: 2.3rem;
+}
+
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box {
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul {
+    list-style-type: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.plantable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table {
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th {
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td {
+    border-bottom: 2px solid black;
+}
+
+.section3 h1 {
+    font-size: 2.3rem;
+}
+
+.section3 {
+    padding: 73px;
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+
+/* Responsive Styles */
+
+/* For tablets (768px to 1024px) */
+@media only screen and (max-width: 1024px) {
+    .container {
+        max-width: 90vw;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .topleft, .topright {
+        width: 100%;
+    }
+
+    .dumbellimg, .topright .gymimg {
+        width: 100%;
+    }
+
+    .section1 h1 {
+        font-size: 1.8rem;
+    }
+
+    .section2 h1 {
+        font-size: 2rem;
+    }
+
+    .section2 p {
+        padding: 0 5vw;
+    }
+
+    .box {
+        margin: 10px 10px;
+        min-width: 40vw;
+    }
+
+    .section3 h1 {
+        font-size: 2rem;
+    }
+}
+
+/* For mobile devices (max-width: 767px) */
+@media only screen and (max-width: 767px) {
+    .container {
+        max-width: 95vw;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .navbar li {
+        margin: 5px 0;
+    }
+
+    .topleft, .topright {
+        width: 100%;
+    }
+
+    .dumbellimg, .topright .gymimg {
+        width: 100%;
+    }
+
+    .section1 h1 {
+        font-size: 1.5rem;
+    }
+
+    .section2 h1 {
+        font-size: 1.8rem;
+    }
+
+    .section2 p {
+        padding: 0 3vw;
+    }
+
+    .box {
+        margin: 8px 8px;
+        min-width: 80vw;
+    }
+
+    .section3 h1 {
+        font-size: 1.8rem;
+    }
+
+    .section3 table th, .section3 table td {
+        font-size: 0.9rem;
+    }
+}
+
+/* For very small mobile devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .section1 h1 {
+        font-size: 1.2rem;
+    }
+
+    .section2 h1 {
+        font-size: 1.5rem;
+    }
+
+    .box h2 {
+        font-size: 1.5rem;
+    }
+
+    .section3 h1 {
+        font-size: 1.5rem;
+    }
+}
